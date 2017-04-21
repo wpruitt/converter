@@ -35,7 +35,10 @@ var clear = document.getElementById("clear").addEventListener("click", function(
 });
 var cleardisplay = document.getElementById("clear").addEventListener("click", function(){
 	document.getElementById("output").style.visibility = "hidden";
-})
+});
+var clearTemp = document.getElementById("clear").addEventListener("click", function(){
+	document.getElementById("output").style.color = "white";
+});
 
 
 // var whichTemp = document.getElementById("celsius").checked;
